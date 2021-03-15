@@ -48,6 +48,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqq-Qf-crS">
                                 <rect key="frame" x="355" y="338" width="26" height="22"/>
                                 <state key="normal" image="eye.slash" catalog="system"/>
+                                <connections>
+                                    <action selector="ShowPassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A8j-VJ-v1g"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HS3-a1-bLC">
                                 <rect key="frame" x="278" y="399" width="116" height="28"/>
@@ -55,6 +58,9 @@
                                 <state key="normal" title="Forgot password?">
                                     <color key="titleColor" name="AccentColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="ForgotPassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kgD-se-lVg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VEF-JB-g7a">
                                 <rect key="frame" x="20" y="462" width="374" height="50"/>
@@ -66,6 +72,9 @@
                                 <state key="normal" title="Log in">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LogIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HbG-XO-4yb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5O4-ov-ajp">
                                 <rect key="frame" x="196" y="540" width="22" height="18"/>
@@ -85,6 +94,9 @@
                                 <state key="normal" title="Sign Up.">
                                     <color key="titleColor" name="AccentColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="SignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mi7-kP-KHz"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ley-Dp-RcD">
                                 <rect key="frame" x="20" y="583" width="374" height="50"/>
@@ -94,6 +106,9 @@
                                         <state key="normal" title="Continue as Linuxsoid">
                                             <color key="titleColor" name="AccentColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="ContinueAs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7DX-U9-SB6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzw-3s-3BV">
                                         <rect key="frame" x="89" y="13" width="25" height="25"/>
@@ -148,7 +163,8 @@
                         <outlet property="Email" destination="6Gr-fT-PHM" id="BGc-sW-KIi"/>
                         <outlet property="Facebook" destination="gpt-zo-2Cs" id="VIG-m9-3SV"/>
                         <outlet property="Login" destination="VEF-JB-g7a" id="xGM-rv-dhJ"/>
-                        <outlet property="Password" destination="WOD-qI-cK9" id="Kow-Ok-58T"/>
+                        <outlet property="Password" destination="WOD-qI-cK9" id="WD4-KU-Len"/>
+                        <outlet property="eyeButton" destination="cqq-Qf-crS" id="fFZ-hA-QaQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
