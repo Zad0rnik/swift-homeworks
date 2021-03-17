@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
     @IBAction func LogIn(_ sender: UIButton) {
         
-        print("Sign In")
+        print("Log In")
     }
     
     @IBAction func ContinueAs(_ sender: UIButton) {
